@@ -1,0 +1,51 @@
+{
+  "name": "gatsby-image-background-slider-example",
+  "private": true,
+  "description": "A nice, simple, background slideshow",
+  "homepage": "https://GabeEddyT.github.io/gatsby-image-background-slider",
+  "author": "Gabe Troyan",
+  "version": "0.0.0",
+  "dependencies": {
+    "@fontsource/special-elite": "^5.1.0",
+    "gatsby": "^2.15.21",
+    "gatsby-image": "^2.11.0",
+    "gatsby-image-background-slider": "^0.0.4",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-extract-image-colors": "^0.0.14",
+    "gatsby-plugin-manifest": "^2.2.18",
+    "gatsby-plugin-offline": "^6.14.0",
+    "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby-plugin-sharp": "^2.2.25",
+    "gatsby-source-filesystem": "^2.1.26",
+    "gatsby-transformer-sharp": "^2.2.16",
+    "prop-types": "^15.7.2",
+    "react": "16",
+    "react-background-slider": "^4.0.0",
+    "react-dom": "16",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "gatsby-plugin-sharp-exif": "^2.0.0",
+    "netlify-cli": "^17.37.2",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve -H 0.0.0.0",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
